@@ -36,7 +36,7 @@ public class Main {
 
 
 
-## Taking User Input Using Scanner
+## 1) Using Scanner class -to get user input 
 One of the fundamental aspects of programming is taking input from the user. In Java, this is achieved with the help of the Scanner class, which allows you to receive input from the user via the terminal or console.
 ```
 import java.util.Scanner;
@@ -52,6 +52,45 @@ public class UserInput {
 }
 ```
 the Scanner class captures that value, stores it in the variable x, and then displays it using System.out.println.
+
+
+
+## 2) using buffered reader -to get user input 
+> BufferedReader is more efficient when dealing with large volumes of input data, such as reading from files or network streams.
+> It reads input as a stream of characters and can be particularly useful for handling text-based data where you need to parse lines or process data incrementally.
+
+# Creating a BufferedReader Object
+To use BufferedReader, first, we create an object of the InputStreamReader class. This object specifies where the input originates from.
+```
+InputStreamReader is = new InputStreamReader(System.in);
+```
+
+# Initializing BufferedReader
+Now, create a BufferedReader object and pass the InputStreamReader object into it. This BufferedReader will be responsible for reading and processing the input.
+```
+InputStreamReader is = new InputStreamReader(System.in);
+BufferedReader bf = new BufferedReader(in);
+```
+Here, the InputStreamReader class is used to convert the raw byte-based input stream (System.in) into a character-based input stream. This is necessary to read text input conveniently.
+
+Now, the BufferedReader is used to buffer the input stream, making it more efficient to read lines of text. It provides methods like readLine() to read complete lines of text, which is very useful for user input.
+
+```
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class InputOutput {
+    public static void main(String[] args) throws IOException {
+        System.out.println("Enter a number:"); 
+        InputStreamReader in = new InputStreamReader(System.in);
+        BufferedReader bf = new BufferedReader(in);
+
+        int num = Integer.parseInt(bf.readLine());
+        System.out.println("You entered: " + num);
+    }
+}
+```
 
 
 
