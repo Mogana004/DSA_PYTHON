@@ -61,8 +61,8 @@ the Scanner class captures that value, stores it in the variable x, and then dis
 
 
 
- Problem statement
-Write a program that takes a character as input and prints 1, 0, or -1 according to the following rules.
+## Problem statement
+### Write a program that takes a character as input and prints 1, 0, or -1 according to the following rules.
 
 1, if the character is an uppercase alphabet (A - Z).
 
