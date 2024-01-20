@@ -38,7 +38,7 @@ public class Main {
 
 ## 1) Using Scanner class -to get user input 
 One of the fundamental aspects of programming is taking input from the user. In Java, this is achieved with the help of the Scanner class, which allows you to receive input from the user via the terminal or console.
-```
+```java
 import java.util.Scanner;
 
 public class UserInput {
@@ -61,7 +61,7 @@ the Scanner class captures that value, stores it in the variable x, and then dis
 
 ### Creating a BufferedReader Object
 To use BufferedReader, first, we create an object of the InputStreamReader class. This object specifies where the input originates from.
-```
+```java
 InputStreamReader is = new InputStreamReader(System.in);
 ```
 
