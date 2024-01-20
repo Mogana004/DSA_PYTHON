@@ -61,7 +61,7 @@ the Scanner class captures that value, stores it in the variable x, and then dis
 
 
 
-## Problem statement
+## 1) Problem statement 
 ### Write a program that takes a character as input and prints 1, 0, or -1 according to the following rules.
 
 1, if the character is an uppercase alphabet (A - Z).
@@ -76,7 +76,7 @@ Input: The character is 'a'.
 Output: 0
 
 
-## coding Solution
+## [coding Solution](https://www.codingninjas.com/studio/problems/find-character-case_58513)
 ```
 import java.util.*;
 public class Solution {
