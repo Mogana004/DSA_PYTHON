@@ -24,7 +24,7 @@
 The generic skeleton of a Java program consists of two main components: the import statements and the main method. After importing the necessary libraries, you declare the main method using public static void main(String[] args) { /* Your code here */ }. This serves as the entry point for your program.
 
 
-```
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -67,7 +67,7 @@ InputStreamReader is = new InputStreamReader(System.in);
 
 ### Initializing BufferedReader
 Now, create a BufferedReader object and pass the InputStreamReader object into it. This BufferedReader will be responsible for reading and processing the input.
-```
+```java
 InputStreamReader is = new InputStreamReader(System.in);
 BufferedReader bf = new BufferedReader(in);
 ```
@@ -75,7 +75,7 @@ Here, the InputStreamReader class is used to convert the raw byte-based input st
 
 Now, the BufferedReader is used to buffer the input stream, making it more efficient to read lines of text. It provides methods like readLine() to read complete lines of text, which is very useful for user input.
 
-```
+```java
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -116,7 +116,7 @@ Output: 0
 
 
 ## [coding Solution](https://www.codingninjas.com/studio/problems/find-character-case_58513)
-```
+```java
 import java.util.*;
 public class Solution {
     
