@@ -1,4 +1,4 @@
-### Basic Input and Output in Java
+# Basic Input and Output in Java
 1. scanner class
 2. buffered reader
 
@@ -59,13 +59,13 @@ the Scanner class captures that value, stores it in the variable x, and then dis
 > BufferedReader is more efficient when dealing with large volumes of input data, such as reading from files or network streams.
 > It reads input as a stream of characters and can be particularly useful for handling text-based data where you need to parse lines or process data incrementally.
 
-# Creating a BufferedReader Object
+### Creating a BufferedReader Object
 To use BufferedReader, first, we create an object of the InputStreamReader class. This object specifies where the input originates from.
 ```
 InputStreamReader is = new InputStreamReader(System.in);
 ```
 
-# Initializing BufferedReader
+### Initializing BufferedReader
 Now, create a BufferedReader object and pass the InputStreamReader object into it. This BufferedReader will be responsible for reading and processing the input.
 ```
 InputStreamReader is = new InputStreamReader(System.in);
