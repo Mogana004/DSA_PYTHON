@@ -3,9 +3,9 @@
 2. buffered reader
 
 
-Java is a versatile language, that relies on libraries to access various functionalities. To perform tasks like input and output, we include specific libraries at the beginning of our code. One such essential library is java.util, which includes the Scanner class. The Scanner class is a workhorse for handling user input, allowing you to effortlessly read data from the keyboard or other sources.
+ > Java is a versatile language, that relies on libraries to access various functionalities. To perform tasks like input and output, we include specific libraries at the beginning of our code. One such essential library is java.util, which includes the Scanner class. The Scanner class is a workhorse for handling user input, allowing you to effortlessly read data from the keyboard or other sources.
 
-Java offers two input methods, Scanner and BufferedReader, to cater to diverse programming needs. Scanner simplifies console input for common use cases, providing easy-to-use methods for various data types. BufferedReader, on the other hand, offers greater control and efficiency, making it suitable for complex input scenarios and handling large volumes of data, such as reading from files or network streams. 
+ > Java offers two input methods, Scanner and BufferedReader, to cater to diverse programming needs. Scanner simplifies console input for common use cases, providing easy-to-use methods for various data types. BufferedReader, on the other hand, offers greater control and efficiency, making it suitable for complex input scenarios and handling large volumes of data, such as reading from files or network streams. 
 
 
 
