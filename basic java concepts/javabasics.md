@@ -2,7 +2,9 @@ Problem statement
 Write a program that takes a character as input and prints 1, 0, or -1 according to the following rules.
 
 1, if the character is an uppercase alphabet (A - Z).
+
 0, if the character is a lowercase alphabet (a - z).
+
 -1, if the character is not an alphabet.
 
 
@@ -33,5 +35,6 @@ public class Solution {
 
     }
 }
-```![Screenshot (621)](https://github.com/Mogana004/DSA_JAVA/assets/92911280/46410360-5634-4486-968d-7601f341050d)
+```
+![Screenshot (621)](https://github.com/Mogana004/DSA_JAVA/assets/92911280/46410360-5634-4486-968d-7601f341050d)
 
