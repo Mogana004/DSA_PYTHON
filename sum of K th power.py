@@ -7,3 +7,4 @@ for i in N1:
     sum= sum+ digit** K
 print(sum)
     
+//given a number N  , write a program to print the sum of the Kth power of all the digits in the given number , k indicates the number of digits of the number N
