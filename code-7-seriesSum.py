@@ -1,6 +1,4 @@
 
-python
-Copy code
 x = int(input("Enter the value of x: "))
 N = int(input("Enter the number of terms (N): "))
 total_sum = 0
