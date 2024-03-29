@@ -6,3 +6,7 @@ for each_number in range( 1, rows+1):
     print(spaces + stars)
 
 ```
+## output 
+  *
+ **
+***
