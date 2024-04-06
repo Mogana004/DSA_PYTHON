@@ -1,0 +1,14 @@
+def get_even_numbers_count(numbers):
+    split = numbers.split()
+    ec= 0
+    
+    for i in split :
+        i = int(i)
+        if i %2 == 0 :
+            ec += 1 
+    return ec
+
+
+numbers = input()
+result =get_even_numbers_count(numbers)
+print(result)
