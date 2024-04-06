@@ -1,0 +1,12 @@
+def count_special_ladders(ladder_heights):
+    special_count = 1 
+    max_height  = ladder_heights[-1]
+    for height in reversed(ladder_heights[::-1]):
+        if height > max_height :
+            special_count += 1
+            max_height  = height 
+    return special_count
+N= int(input())
+heights = list(map(int, input().split()))
+result = count_special_ladders(heights)
+print(result)
